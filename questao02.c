@@ -9,20 +9,19 @@ Data: 20/09/2022
 
 Questão 02: Faça um algoritmo que leia o nome e salário de um funcionário, calcule e mostre o reajuste
 do salário com um aumento de 15%.
-
-
 */
 
 #include <stdio.h>
 #include <string.h>
+
 #define MAX 50
+#define REAJUSTE_SALARIO 0.15
 
 int main()
 {
     // Declaração e inicialização de Variáveis
     char nomeFunc[MAX];
     float salarioFunc = 0;
-    float reajusteSalario = 0.15;
 
     printf("Entre com o nome do Funcionário: ");
     // Leitura da String que contém o nome do Funcionário.
@@ -37,10 +36,10 @@ int main()
     
     printf("Entre com o salário do Funcionário: ");
     // Leitura do salário do Funcionário.
-    scanf(" %f%*[^\n]",&salarioFunc);
+    scanf(" %f%*[^\n]",& salarioFunc);
 
     // Calculando o salário atualizado
-    salarioFunc *= (1 + reajusteSalario); // salario = salário * (1 + reajuste)
+    salarioFunc *= (1 + REAJUSTE_SALARIO); // salario = salário * (1 + reajuste)
     
     // Imprimindo os valores das variáveis
     printf("Nome do Funcionário: %s\n", nomeFunc);
