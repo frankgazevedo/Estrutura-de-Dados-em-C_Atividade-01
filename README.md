@@ -80,6 +80,7 @@ diferentes.
 altura e sexo. Fórmulas para cálculo do peso:
 
 • peso ideal de homem = (72,7 x altura) - 58;
+
 • peso ideal da mulher = (62,1 x altura) - 44,7
 
 22. Escreva um programa que calcule o Índice de Massa Corporal (IMC) de uma pessoa.
@@ -88,11 +89,17 @@ altura da pessoa (peso/altura2). Ao fim, o programa deve exibir uma mensagem que
 depende do valor do IMC calculado (conforme listado abaixo).
 
 • Abaixo de 17: muito abaixo do peso
+
 • Entre 17 e 18,49: abaixo do peso
+
 • Entre 18,50 e 24,99: peso normal
+
 • Entre 25 e 29,99: acima do peso
+
 • Entre 30 e 34,99: obesidade I
+
 • Entre 35 e 39,99: obesidade II (severa)
+
 • acima de 40: obesidade III (mórbida)
 
 23. Escreva um algoritmo que ajude o usuário a descobrir se ele precisa abastecer o carro
@@ -100,7 +107,9 @@ ou não e, se sim, quanto ele precisa abastecer. O programa deve começar
 perguntando ao usuário:
 
 (1) quantos quilômetros o carro faz por litro
+
 (2) quantos litros de gasolina há no momento
+
 (3) qual distância ele deseja percorrer.
 
 O programa avisa ao usuário se ele precisa abastecer ou não. Caso o usuário precise
@@ -109,16 +118,22 @@ abastecer, deve ser informado quantos litros o usuário deve abastecer.
 **Exemplo**
 
 Quantos quilômetros o carro percorre por litro? **5**
+
 Quantos litros tem no carro atualmente? **20**
+
 Qual distância (em Km) vocˆe deseja percorrer ? **150**
+
 *Você precisa abastecer 10 litros.*
 
 24. Doar sangue é uma atitude muito importante, entretanto é preciso atender alguns
 requisitos.
 
 • Ter entre 19 e 69 anos de idade
+
 • Pesar ao menos 50 kg
+
 • Não ter feito nenhuma tatuagem no útimo ano
+
 • Não ter ingerido álcool nas últimas 12 horas.
 
 Escreva um programa que pergunte ao usuário se ele atende os requisitos necessários
@@ -143,11 +158,15 @@ crescimento.
 30. Um posto está vendendo combustíveis com a seguinte tabela de descontos:
 
 **Álcool:**
+
 até 20 litros, desconto de 3% por litro
+
 acima de 20 litros, desconto de 5% por litro
 
 **Gasolina:**
+
 até 20 litros, desconto de 4% por litro
+
 acima de 20 litros, desconto de 6% por litro
 
 Escreva um algoritmo que leia o número de litros vendidos, o tipo de combustível
@@ -160,8 +179,13 @@ ao longo de um semestre, e calcule a sua média. A atribuição de conceitos obe
 tabela abaixo:
 
 Média de Aproveitamento Conceito
-Entre 9.0 e 10.0A
-Entre 7.5 e 9.0B
-Entre 6.0 e 7.5C
-Entre 4.0 e 6.0D
-Entre 4.0 e zeroE
+
+Entre 9.0 e 10.0    A
+
+Entre 7.5 e 9.0   B
+
+Entre 6.0 e 7.5   C
+
+Entre 4.0 e 6.0   D
+
+Entre 4.0 e zero    E
