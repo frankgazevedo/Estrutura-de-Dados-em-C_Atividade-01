@@ -17,30 +17,30 @@ Questão 11: Faça um algoritmo que leia a idade de uma pessoa expressa em anos,
 int main()
 {
     // Declaração e inicialização de Variáveis
-    int anoDeNascimento = 0;
-    int mesDeNascimento = 0;
-    int diaDeNascimento = 0;
+    int anoNascimento = 0;
+    int mesNascimento = 0;
+    int diaNascimento = 0;
     int qtdTotalAnos = 0;
     int qtdTotalMeses = 0;
-    int qtdTotaldiaDeNascimentos = 0;
+    int qtdTotalDias = 0;
 
     // Leituras.
-    printf("Entre com o anoDeNascimento de nascimento: ");
-    scanf(" %i%*[^\n]", &anoDeNascimento);
+    printf("Entre com o ano de nascimento: ");
+    scanf(" %i%*[^\n]", &anoNascimento);
 
     printf("Entre com o mês de nascimento (01 a 12): ");
-    scanf(" %i%*[^\n]", &mesDeNascimento);
+    scanf(" %i%*[^\n]", &mesNascimento);
 
-    printf("Entre com o diaDeNascimento de nascimento (01 a 31): ");
-    scanf(" %i%*[^\n]", &diaDeNascimento);
+    printf("Entre com o dia de nascimento (01 a 31): ");
+    scanf(" %i%*[^\n]", &diaNascimento);
 
     // Caulcula quantidade total de diaDeNascimentos de vida em relação ao ANO_CORRENTE
-    qtdTotalAnos = ANO_CORRENTE - anoDeNascimento;
-    qtdTotalMeses = (qtdTotalAnos * 12) + mesDeNascimento;
-    qtdTotaldiaDeNascimentos = (qtdTotalMeses * 30) + diaDeNascimento;
+    qtdTotalAnos = ANO_CORRENTE - anoNascimento;
+    qtdTotalMeses = (qtdTotalAnos * 12) + mesNascimento;
+    qtdTotalDias = (qtdTotalMeses * 30) + diaNascimento;
 
     // Imprimindo os valores das variáveis
-    printf("Idade em diaDeNascimentos (em relação ao anoDeNascimento corrente): %.2i\n", qtdTotaldiaDeNascimentos);
+    printf("Idade em dias (em relação ao ano corrente): %.2i\n", qtdTotalDias);
 
     return 0;
 }
