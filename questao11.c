@@ -7,8 +7,8 @@ Matrícula: 202103436803
 Lista de Exercício 01
 Data: 20/09/2022
 
-Questão 11: Faça um algoritmo que leia a idade de uma pessoa expressa em anos, meses e diaDeNascimentos e
- como resultado escreva a idade dessa pessoa expressa apenas em diaDeNascimentos. Considerar anoDeNascimento com 365 diaDeNascimentos e mês com 30 diaDeNascimentos.
+Questão 11: Faça um algoritmo que leia a idade de uma pessoa expressa em anos, meses e dias e
+ como resultado escreva a idade dessa pessoa expressa apenas em dias. Considerar ano com 365 dias e mês com 30 dias.
 */
 
 #include <stdio.h>
