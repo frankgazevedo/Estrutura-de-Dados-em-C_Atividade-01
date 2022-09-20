@@ -7,7 +7,7 @@ Matrícula: 202103436803
 Lista de Exercício 01
 Data: 20/09/2022
 
-Questão 03: Escreva um programa que calcule o Índice de Massa Corporal (IMC) de uma pessoa.
+Questão 22: Escreva um programa que calcule o Índice de Massa Corporal (IMC) de uma pessoa.
 Lembre-se que o IMC é o resultado da razão entre o peso da pessoa e o quadrado da altura da pessoa (peso/altura2).
 Ao fim, o programa deve exibir uma mensagem que depende do valor do IMC calculado (conforme listado abaixo).
 
