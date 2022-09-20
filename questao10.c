@@ -12,10 +12,6 @@ Questão 10: Escreva um algoritmo para ler as dimensôes de um retângulo (base 
 
 #include <stdio.h>
 
-// necessária para a utilização da função pow(). Importante ressaltar que, ao menos Linux, é necessário
-// adicionar o parâmetro -lm na linha de compilação. No caso, compilei do seguinte modo: gcc source.c -o executableName -lm
-#include <math.h>
-
 int main()
 {
     // Declaração e inicialização de Variáveis
