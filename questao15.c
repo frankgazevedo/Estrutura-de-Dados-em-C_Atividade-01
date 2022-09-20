@@ -13,7 +13,7 @@ Questão 15: Escrever um algoritmo que leia dois valores inteiros distintos e in
 #include <stdio.h>
 #include <limits.h> // Biblioteca que contém a macro INT_MIN (especifica o menor número do tipo INT representável na máquina de execução)
 
-// Quantidade de números que serão lidas
+// Quantidade de números que serão lidos
 #define QTD_NUMS 2
 
 int main()
@@ -34,7 +34,7 @@ int main()
     }
 
     // Imprime o maior número digitado
-        printf("Maior número: %d\n", maiorNumero);
- 
+    printf("Maior número: %d\n", maiorNumero);
+
     return 0;
 }
