@@ -17,7 +17,7 @@ Questão 26: Faça um programa que imprima na tela apenas os números ímpares e
 
 int main()
 {
-    for (int i = 1; i < QTD_NUMS; i++)
+    for (int i = 1; i <= QTD_NUMS; i++)
     {
         if (i % 2 != 0) // Se o resto da divisão inteira for diferente de 0
             printf("%d\n", i);
