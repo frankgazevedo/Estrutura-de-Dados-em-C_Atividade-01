@@ -17,8 +17,8 @@ Questão 24: Doar sangue é uma atitude muito importante, entretanto é preciso 
 
 • Não ter ingerido álcool nas últimas 12 horas.
 
-Escreva um programa que pergunte ao usuário se ele atende os requisitos necessários para doar sangue. 
-Faça as perguntas uma por vez. Caso a resposta dele o impede de doar, avise-o e encerre o programa. 
+Escreva um programa que pergunte ao usuário se ele atende os requisitos necessários para doar sangue.
+Faça as perguntas uma por vez. Caso a resposta dele o impede de doar, avise-o e encerre o programa.
 Se ele atender todos os requisitos, avise-o que ele pode ser doador.
 */
 
@@ -42,7 +42,7 @@ int main()
         printf("Você não pode ser doador\n");
         return 0; // encerra o programa
     }
-    
+
     // Leitura do peso.
     printf("Qual o seu peso? ");
     scanf(" %f%*[^\n]", &peso);
@@ -83,6 +83,6 @@ int main()
     }
 
     printf("Você pode doar\n");
-    
+
     return 0;
 }
