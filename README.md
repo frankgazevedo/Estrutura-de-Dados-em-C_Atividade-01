@@ -14,10 +14,10 @@ reajuste do salário com um aumento de 15%.
 3. Escreva um algoritmo para calcular o IMC (Índice Massa Corporal). O programa deverá
 ler o peso e a altura informada e como resutaldo informar o valor do índice.
 
-4. Escreva um algoritmo que leia trˆes notas de um aluno e imprime no console a m´edia que ele
+4. Escreva um algoritmo que leia três notas de um aluno e imprime no console a média que ele
 obteve na disciplina.
 
-5. Escreva um algoritmo que leia o sal´ario total de uma pessoa e quantas horas ela trabalha
+5. Escreva um algoritmo que leia o salário total de uma pessoa e quantas horas ela trabalha
 por dia. Em seguida, calcule e imprima quanto essa pessoa recebe por hora.
 
 6. Sabe-se que o m2 de construção custa 50 reais. Escreva um algoritmo que leia as medidas
@@ -25,7 +25,7 @@ de um terreno retangular, calcula e imprime quanto custa para construir uma casa
 ocupe esse terreno.
 
 7. Uma loja está oferecendo um grande desconto: para as clientes que levarem 3
-produtos, ser´a dado um desconto de 20% no valor total da compra. Crie um algoritmo
+produtos, será dado um desconto de 20% no valor total da compra. Crie um algoritmo
 que leia o preço dos três produtos e calcule e imprima no console: o valor do total da
 compra sem desconto, quanto foi o desconto e quanto devera ser pago.
 
@@ -121,7 +121,7 @@ Quantos quilômetros o carro percorre por litro? **5**
 
 Quantos litros tem no carro atualmente? **20**
 
-Qual distância (em Km) vocˆe deseja percorrer ? **150**
+Qual distância (em Km) você deseja percorrer ? **150**
 
 *Você precisa abastecer 10 litros.*
 
@@ -132,7 +132,7 @@ requisitos.
 
 • Pesar ao menos 50 kg
 
-• Não ter feito nenhuma tatuagem no útimo ano
+• Não ter feito nenhuma tatuagem no último ano
 
 • Não ter ingerido álcool nas últimas 12 horas.
 
@@ -151,11 +151,11 @@ doador.
 taxa anual de crescimento de 3% e que a população de B seja 200000 habitantes com
 uma taxa de crescimento de 1.5%.
 
-29. Faça um programa que calcule e escreva o número de anos necessários para que a
+Faça um programa que calcule e escreva o número de anos necessários para que a
 população do país A ultrapasse ou iguale a população do país B, mantidas as taxas de
 crescimento.
 
-30. Um posto está vendendo combustíveis com a seguinte tabela de descontos:
+29. Um posto está vendendo combustíveis com a seguinte tabela de descontos:
 
 **Álcool:**
 
@@ -174,7 +174,7 @@ Escreva um algoritmo que leia o número de litros vendidos, o tipo de combustív
 pago pelo cliente sabendo-se que o preço do litro da gasolina é R$ 2,50 o preço do litro
 do álcool é R$ 1,90.
 
-31. Faça um programa que lê as duas notas parciais obtidas por um aluno numa disciplina
+30. Faça um programa que lê as duas notas parciais obtidas por um aluno numa disciplina
 ao longo de um semestre, e calcule a sua média. A atribuição de conceitos obedece à
 tabela abaixo:
 
